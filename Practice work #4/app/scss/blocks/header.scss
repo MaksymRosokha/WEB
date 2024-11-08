@@ -1,0 +1,164 @@
+body {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.background-image {
+  min-width: 320px;
+  max-width: 1440px;
+  height: 903px;
+  background-image: url(../images/dest/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.main {
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  // .header__logo
+		&__logo {
+    position: relative;
+    top: 32px;
+    left: 160px;
+    max-width: 100%;
+
+    @media (max-width: 1200px) {
+      left: 20px;
+    }
+  }
+
+  // .header__quiz
+		&__quiz {
+    position: relative;
+    top: 38px;
+
+    @media (max-width: 600px) {
+      position: absolute;
+    }
+  }
+
+  // .header__get-app
+		&__get-app {
+    position: relative;
+    top: 22px;
+    right: 150px;
+
+    @media (max-width: 1420px) {
+      right: 100px;
+    }
+
+    @media (max-width: 1320px) {
+      right: 1vw;
+    }
+
+    @media (max-width: 1100px) {
+      top: 72px;
+    }
+  }
+}
+
+.logo {
+
+  // .logo__img
+	&__img {
+    max-width: 100%;
+
+    @media (max-width: 1000px) {
+      width: 75%;
+    }
+  }
+}
+
+.guiz {
+
+  // .guiz__a
+  &__a {
+    font-size: 16;
+
+    &:link {
+      font-style: normal;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: black;
+    }
+
+    &:hover {
+      color: black;
+    }
+
+    &:active {
+      color: black;
+    }
+
+    // .guiz__a_quiz
+    &_quiz {
+      position: relative;
+      left: 186px;
+    }
+
+    // .guiz__a_support
+    &_support {
+      position: relative;
+      left: 242px;
+
+      @media (max-width: 600px) {
+        left: 220px;
+      }
+    }
+  }
+}
+
+.get-app {
+  display: flex;
+  flex-wrap: nowrap;
+  // .get-app__form
+		&__form {
+  }
+
+  // .get-app__input
+		&__input {
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 15% 50%;
+    border-bottom-left-radius: 15% 50%;
+
+    @media (max-width: 1330px) {
+      width: 180px;
+      height: 50px;
+      font-size: small;
+    }
+  }
+
+  // .get-app__submit
+		&__submit {
+    width: 102px;
+    height: 60px;
+    margin-left: -.36em;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-top-right-radius: 25% 50%;
+    border-bottom-right-radius: 25% 50%;
+
+    @media (max-width: 1330px) {
+      width: 60px;
+      height: 50px;
+      font-size: small;
+    }
+  }
+}
+
+.mobile-number-form {
+
+}

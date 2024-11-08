@@ -1,0 +1,83 @@
+.main {
+
+  // .main__section
+  &__section {
+
+    // .main__section_reason-for-creation
+    &_reason-for-creation {
+    }
+  }
+}
+
+.reason-for-creation {
+
+  // .reason-for-creation_title
+  &_title {
+  }
+
+  // .reason-for-creation_referenses
+  &_referenses {
+    padding-top: 20px;
+  }
+
+  // .reason-for-creation__h1
+  &__h1 {
+    padding-top: 95px;
+    font-size: 57px;
+    line-height: 81px;
+    color: #56593d;
+    text-align: center;
+  }
+
+  // .reason-for-creation__a
+  &__a {
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #56593d;
+    letter-spacing: 1.6px;
+
+    &:link {
+      color: #56593d;
+    }
+
+    &:visited {
+      color: #56593d;
+    }
+
+    &:hover {
+      color: #56593d;
+    }
+
+    &:active {
+      color: #56593d;
+    }
+
+    // .reason-for-creation__a_shop-all
+      &_shop-all {
+    }
+
+    // .reason-for-creation__a_read-stories
+      &_read-stories {
+      margin-left: 1px;
+    }
+
+    // .reason-for-creation__a_shop-all
+    &_shop-all {
+      margin-left: 130px;
+    }
+
+    // .reason-for-creation__a_read-stories
+    &_read-stories {
+    }
+  }
+}
+
+.row {
+}
+
+.reason-for-creation_a {
+
+  // .reason-for-creation_a__img
+  &__img {
+  }
+}

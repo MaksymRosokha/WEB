@@ -1,0 +1,45 @@
+.download {
+  height: 484px;
+  background-color: #fcd0ba;
+  // .download__title
+  &__title {
+    padding-top: 80px;
+  }
+
+  // .download__get-app
+  &__get-app {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+}
+
+.title-download-empower {
+
+  // .title-download-empower__h2
+  &__h2 {
+    width: 963px;
+    margin: auto;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.get-app {
+
+  // .get-app__form
+  &__form {
+  }
+
+  // .get-app__input
+  &__input {
+  }
+
+  // .get-app__submit
+  &__submit {
+  }
+}
+
+.mobile-number-form {
+}

@@ -1,0 +1,150 @@
+.title {
+  width: 340px;
+  max-width: 340px;
+
+  @media (max-width: 1400px) {
+    width: 25%;
+  }
+
+  @media (max-width: 1330px) {
+    width: 25%;
+  }
+
+  @media (max-width: 1200px) {
+    width: 30%;
+  }
+
+  @media (max-width: 800px) {
+    width: 75%;
+    color: white;
+  }
+
+  // .title__one-curd
+  &__one-curd {
+    position: relative;
+    top: 133px;
+    left: 165px;
+
+    @media (max-width: 1200px) {
+      left: 20px;
+    }
+  }
+
+  // .title__main-sub-title
+  &__main-sub-title {
+    position: relative;
+    top: 142px;
+    left: 165px;
+
+    @media (max-width: 1200px) {
+      left: 20px;
+    }
+  }
+
+  // .title__get-app
+  &__get-app {
+    position: relative;
+    top: 142px;
+    left: 165px;
+
+    @media (max-width: 1200px) {
+      left: 10px;
+    }
+  }
+
+  // .title__motivation-text
+  &__motivation-text {
+    position: relative;
+    top: 152px;
+    left: 165px;
+
+    @media (max-width: 1200px) {
+      left: 20px;
+    }
+  }
+
+  // .title__mobile-download
+  &__mobile-download {
+    position: relative;
+    top: 177px;
+    left: 165px;
+
+    @media (max-width: 1200px) {
+      left: 20px;
+    }
+  }
+}
+
+.one-curd {
+
+  // .one-curd__h1
+  &__h1 {
+    font-size: 60px;
+    line-height: 60px;
+
+    @media (max-width: 1000px) {
+      font-size: 3em;
+    }
+  }
+}
+
+.main-sub-title {
+
+  // .main-sub-title__p
+  &__p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.get-app {
+
+  // .get-app__form
+  &__form {
+  }
+
+  // .get-app__input
+  &__input {
+  }
+
+  // .get-app__submit
+  &__submit {
+  }
+}
+
+.mobile-number-form {
+}
+
+.motivation-text {
+
+  // .motivation-text__p
+  &__p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.mobile-download {
+}
+
+.mobile_download {
+
+  // .mobile_download__img
+  &__img {
+    max-width: 100%;
+    cursor: pointer;
+
+    @media (max-width: 1300px) {
+      width: 40%;
+    }
+
+    // .mobile_download__img_apple
+    &_apple {
+    }
+
+    // .mobile_download__img_android
+    &_android {
+      margin-left: 20px;
+    }
+  }
+}

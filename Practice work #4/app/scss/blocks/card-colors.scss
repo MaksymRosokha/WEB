@@ -1,0 +1,63 @@
+.card-colors {
+  height: 1052px;
+
+  @media (max-width: 1200px) {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  // .card-colors__title
+  &__title {
+  }
+
+  // .card-colors__images
+  &__images {
+    padding-top: 70px;
+    margin: auto;
+  }
+}
+
+.title-card-colors {
+  text-align: center;
+
+  // .title-card-colors__h3
+  &__h3 {
+    height: 50px;
+    padding-top: 82px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  // .title-card-colors__h2
+  &__h2 {
+    padding-top: 18px;
+    font-size: 55px;
+    font-weight: bold;
+  }
+}
+
+.images-card-colors {
+  display: flex;
+  justify-content: space-around;
+  width: 1140px;
+  max-width: 100%;
+
+  // .images-card-colors__img
+  &__img {
+    @media (max-width: 1200px) {
+      width: 50%;
+      padding-right: 3%;
+      padding-left: 3%;
+      object-fit: contain;
+    }
+
+    // .images-card-colors__img_black
+    &_black {
+    }
+
+    // .images-card-colors__img_peach
+    &_peach {
+    }
+  }
+}

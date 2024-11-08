@@ -1,0 +1,286 @@
+.articles {
+  width: 1100px;
+  max-width: 1100px;
+  height: 2126px;
+  margin: auto;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    height: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 20px;
+  }
+
+  // .articles__article-main-title
+  &__article-main-title {
+  }
+
+  // .articles__contents-of-articles
+  &__contents-of-articles {
+  }
+}
+
+.article-main-title {
+
+  // .article-main-title__h2
+  &__h2 {
+    padding-top: 81px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+.contents-of-articles {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+
+  // .contents-of-articles__conteiner
+  &__conteiner {
+    padding-top: 23px;
+  }
+
+  // .contents-of-articles__h3
+  &__h3 {
+    width: 460px;
+    max-width: 96%;
+    height: 468px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 0;
+
+    @media (max-width: 1200px) {
+      margin-left: 25%;
+    }
+
+    @media (max-width: 1000px) {
+      width: 50%;
+      margin-left: 25%;
+      font-size: 2em;
+    }
+
+    @media (max-width: 800px) {
+      margin-left: 15%;
+    }
+
+    @media (max-width: 620px) {
+      width: 75%;
+      margin-left: 8%;
+      font-size: 1.5em;
+    }
+
+    @media (max-width: 480px) {
+      width: 50%;
+      height: 200px;
+      margin-left: 18%;
+    }
+
+    @media (max-width: 340px) {
+      width: 75%;
+      margin-left: 5%;
+    }
+  }
+}
+
+.article-background-image {
+
+  // .article-background-image_1
+  &_1 {
+    width: 100%;
+    max-width: 100%;
+    height: 650px;
+    background-image: url(../images/dest/articles/Rectangle-0.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-origin: content-box;
+    background-size: contain;
+
+    @media (max-width: 1200px) {
+      height: auto;
+    }
+  }
+
+  // .article-background-image_2
+  &_2 {
+    width: 530px;
+    height: 650px;
+    background-image: url(../images/dest/articles/Rectangle-1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-origin: content-box;
+    background-size: contain;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  // .article-background-image_3
+  &_3 {
+    width: 530px;
+    height: 650px;
+    background-image: url(../images/dest/articles/Rectangle-2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-origin: content-box;
+    background-size: contain;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  // .article-background-image_4
+  &_4 {
+    width: 530px;
+    height: 650px;
+    padding-top: 13px;
+    background-image: url(../images/dest/articles/Rectangle-3.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-origin: content-box;
+    background-size: contain;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  // .article-background-image_5
+  &_5 {
+    width: 530px;
+    height: 650px;
+    padding-top: 13px;
+    background-image: url(../images/dest/articles/Rectangle-4.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-origin: content-box;
+    background-size: contain;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.contents-of-articles {
+  // .ontents-of-articles__button
+  &__button {
+    position: relative;
+    left: 40px;
+    width: 175px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .5px;
+    background-color: black;
+    border-top-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-right-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+
+    @media (max-width: 1200px) {
+      bottom: 10px;
+      left: 30%;
+      width: 120px;
+      height: 40px;
+    }
+
+    @media (max-width: 775px) {
+      left: 20%;
+    }
+
+    @media (max-width: 480px) {
+      //bottom: 100px;
+      left: 27%;
+    }
+
+    @media (max-width: 400px) {
+      //bottom: 180px;
+    }
+  }
+}
+
+.conteiner-of-article {
+
+  // .conteiner-of-article_big
+  &_big {
+    padding-top: 33px;
+  }
+}
+
+.conteiner-of-article_big {
+  // .conteiner-of-article_big__h3
+  &__h3 {
+    width: 550px;
+
+    @media (max-width: 1200px) {
+      margin-left: 5%;
+    }
+
+    @media (max-width: 1000px) {
+      height: 230px;
+      margin-left: 20%;
+    }
+
+    @media (max-width: 800px) {
+      margin-left: 15%;
+    }
+
+    @media (max-width: 620px) {
+      width: 75%;
+      height: 180px;
+      margin-bottom: 15px;
+      margin-left: 10%;
+    }
+
+    @media (max-width: 480px) {
+      height: 120px;
+      margin-left: 7%;
+    }
+
+    @media (max-width: 340px) {
+      width: 90%;
+      margin-left: 0;
+    }
+  }
+
+  // .conteiner-of-article_big__button
+  &__button {
+    @media (max-width: 1200px) {
+      left: 10%;
+    }
+
+    @media (max-width: 1000px) {
+      left: 25%;
+    }
+
+    @media (max-width: 800px) {
+      left: 20%;
+    }
+
+    @media (max-width: 620px) {
+      left: 18%;
+    }
+
+    @media (max-width: 420px) {
+      left: 12%;
+    }
+  }
+}

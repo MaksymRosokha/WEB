@@ -1,0 +1,53 @@
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 116px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #efefef;
+  // .benefits__item
+  &__item {
+  }
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  // .benefit__img
+  &__img {
+
+    // .benefit__img_left
+    &_left {
+    }
+
+    // .benefit__img_right
+    &_right {
+    }
+  }
+
+  // .benefit__texts
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  // .benefit__h4
+  &__h4 {
+    display: inline;
+    height: 7px;
+    font-size: 12px;
+    letter-spacing: 1.93px;
+  }
+
+  // .benefit__p
+  &__p {
+    display: inline;
+    font-size: 12px;
+  }
+}

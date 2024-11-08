@@ -1,0 +1,192 @@
+/* Прості селектори */
+
+body {
+  background-color: #f4b248;
+}
+
+footer {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: #b7550095;
+  border-radius: 15px;
+}
+
+hr {
+  border: 3px solid rgb(0, 0, 0);
+}
+
+h1 {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  background-color: #c9072a;
+  border-bottom: 3px solid rgb(107, 27, 0);
+  border-radius: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  margin: 5px;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+mark {
+  background-color: #b7550066;
+}
+
+details {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+summary {
+  font-weight: bold;
+}
+
+table {
+  margin-left: 10px;
+}
+
+td {
+  background-color: #af5200a2;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #af5200d8;
+  border: 1px solid black;
+}
+
+.national-dignity {
+  padding: 5px;
+  margin: 5px;
+  background-color: #fbff0042;
+  border-radius: 10px;
+}
+
+.navigation {
+  box-sizing: border-box;
+  width: 99%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #b75500;
+  border-radius: 30px;
+}
+
+.famous-pictures {
+  box-sizing: border-box;
+  margin: 5px;
+  width: 30%;
+  height: 30%;
+}
+
+/*            Комбінаторні селектори:
+   селектор нащадків (Descendant combinator) (пропуск) */
+p dfn {
+  color: rgb(252, 234, 35);
+  font-size: large;
+}
+
+/* селектор дочірній (Child combinator) (>) */
+address > p {
+  font-weight: bold;
+  color: #27006e;
+}
+
+/*  Псевдо-класи:
+  Якірні псевдо-класи */
+a:link {
+  color: rgb(136, 200, 255);
+}
+
+a:visited {
+  color: rgb(0, 125, 202);
+}
+
+a:hover {
+  color: rgb(0, 89, 167);
+}
+
+a:active {
+  color: rgb(28, 0, 139);
+}
+
+p dfn:first-child {
+  color: #fbff00;
+  font-size: 130%;
+}
+
+.title:hover {
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+p:hover {
+  /*font-weight: 500;*/
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+li:hover {
+  /*font-weight: 500;*/
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+/* Псевдоелементи */
+
+cite::before {
+  content: "\"";
+}
+
+cite::after {
+  content: "\"";
+}
+
+h1::selection {
+  color: red;
+  background-color: yellow;
+}
+
+h2::selection {
+  color: red;
+  background-color: yellow;
+}
+
+h3::selection {
+  color: red;
+  background-color: yellow;
+}
+
+h4::selection {
+  color: red;
+  background-color: yellow;
+}
+
+h3::first-letter {
+  font-style: italic;
+}
+
+::marker {
+  color: #fbff00;
+}
+
+/* Селектори атрибутів */
+a[target="blank"] {
+  font-style: italic;
+}
